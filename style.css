@@ -7,7 +7,6 @@ body{
 .container{
     display: flex;
     height: 500px;
-    border: 2px solid #000;
 }
 .half{
     width: 50%;
@@ -42,7 +41,7 @@ p{
     color: white;
     text-decoration: none;
     background-image: linear-gradient(45deg,#F53356,#CF1A1B);
-    padding: 8px 30px;
+    padding: 9px 27px;
     margin: 10px 0px;
     border-radius: 5px;
 }
@@ -51,7 +50,6 @@ p{
 /* Mission Section Start */
 .mission-area{
     height: 550px;
-    border: 2px solid #000;
     padding-bottom: 60px;
 }
 .m-title{
@@ -85,6 +83,47 @@ p{
 .goals{
     background-color: rgba(35, 216, 216, 0.2);
 }
-
 /* Mission Section End */
 
+/* About Me Section Start */
+.about-me{
+    display: flex;
+    height: 500px;
+}
+.about-1{
+    background-image: url(./images/shapes/shape-8.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+.about-2{
+    background-image: url(./images/shapes/shape-7.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 200px;
+
+}
+.image-body1{
+    margin: 20px 10px 20px 130px;
+}
+.image-body2{
+    margin: 20px 130px 20px 10px;
+}
+.s-image{
+    height: 350px;
+}
+.ab-main{
+    padding: 50px 50px;
+}
+.ab-title{
+    font-size: 32px;
+}
+.global-c{
+    padding-left: 130px;
+    padding-right: 100px;   
+}
+
+
+
+
+/* About Me Section End */
