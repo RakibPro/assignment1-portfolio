@@ -50,6 +50,7 @@ p{
 }
 /* Hero Section End */
 
+
 /* Mission Section Start */
 .mission-area{
     height: 550px;
@@ -88,6 +89,7 @@ p{
     background-color: rgba(35, 216, 216, 0.2);
 }
 /* Mission Section End */
+
 
 /* About Me Section Start */
 .about-me{
@@ -129,6 +131,7 @@ p{
 
 /* About Me Section End */
 
+
 /* Contact Section Start */
 .contact-area{
     height: 700px;
@@ -164,25 +167,30 @@ p{
     padding: 10px 0px;
 }
 .input-field{
-    font-size: 17px;
+    padding-left: 10px;
+    font-size: 19px;
     height: 35px;
     width: 500px;
     border: none;
+    outline: none;
     border-radius: 5px;
     box-shadow: inset 2px 2px 5px gray, inset -2px -2px 15px white;
 }
 .text-area{
-        font-size: 17px;
-        height: 130px;
-        width: 500px;
-        border: none;
-        border-radius: 5px;
-        box-shadow: inset 2px 2px 5px gray, inset -2px -2px 15px white;
-
+    padding-left: 10px;
+    font-size: 20px;
+    height: 130px;
+    width: 500px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px gray, inset -2px -2px 15px white;
 }
-.i-content::placeholder{
-    border: none;   
-    font-size: 17px;
+.input-field::placeholder{
+    font-size: 19px;
+}
+.text-area::placeholder{
+    font-size: 20px;
 }
 .s-btn{
     display: inline-block;
@@ -199,7 +207,6 @@ p{
 form h1{
     margin: 0px 0px 20px 0px;
 }
-
 /* Contact Section End */
 
 
