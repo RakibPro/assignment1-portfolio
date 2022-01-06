@@ -95,13 +95,13 @@ p{
     height: 500px;
 }
 .about-1{
-    background-image: url(./images/shapes/shape-8.png);
+    background-image: url(./images/shapes/shape-1.png);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: 200px;
 }
 .about-2{
-    background-image: url(./images/shapes/shape-7.png);
+    background-image: url(./images/shapes/shape-2.png);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 200px;
